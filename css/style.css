@@ -62,8 +62,11 @@ header.sticky {background: var(--text-color); padding: 20px 15%; box-shadow: 0 4
 /* destination */
 .destination {}
 .destination .dest-content {display: flex; flex-wrap: wrap; align-items: center;justify-content: space-between; gap: 2rem;}
-.destination .dest-left {}
-.destination .dest-right {}
+.destination .dest-left h2 {font-size: var(--h2-font); font-weight: 600; color: var(--text-color);}
+.destination .dest-left h6 {font-family: "Satisfy", cursive; font-size: 24px; color: var(--main-color);}
+.destination .dest-right {display: flex; align-items: center; gap: 2rem;}
+.destination .dest-right i {display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; color: var(--text-color); background: transparent; border: 1px solid var(--main-color); border-radius: 50%;}
+.destination .dest-right i:hover {}
 .destination .destination-content {}
 .destination .destination-content .row-img {}
 .destination .destination-content .star {}
